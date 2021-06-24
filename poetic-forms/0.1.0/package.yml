@@ -49,7 +49,7 @@ matches:
       8 syllables
       2 syllables
       
-  - trigger: "dodoitsu"
+  - trigger: "pf:dodoitsu"
     replace: |
       A four-line Japanese form focused on love or comedy.
       
@@ -58,6 +58,17 @@ matches:
       7 syllables
       5 syllables
       
+  - trigger: "pf:limerick"
+    replace: |
+      A limerick is a five-line poem consisting of a triplet split by a couplet.
+      Lines 1, 2, and 5 contain eight to ten syllables, while lines 3 and 4 contain six.
+      
+      a (long)
+      a (long)
+      b (short)
+      b (short)
+      a (long)
+  
   - trigger: "pf:pantoum"
     replace: |
       The pantoum consists of an arbitrary number of quatrains where lines 2 and 4 in each quatrain are repeated as lines 1 and 3 in the subsequent quatrain.
