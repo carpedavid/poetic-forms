@@ -39,6 +39,25 @@ matches:
       b
       C
     
+  - trigger: "pf:cinquain"
+    replace: |
+      A five-line poem with a fixed syllable count for each line.
+      
+      2 syllables
+      4 syllables
+      6 syllables
+      8 syllables
+      2 syllables
+      
+  - trigger: "dodoitsu"
+    replace: |
+      A four-line Japanese form focused on love or comedy.
+      
+      7 syllables
+      7 syllables
+      7 syllables
+      5 syllables
+      
   - trigger: "pf:pantoum"
     replace: |
       The pantoum consists of an arbitrary number of quatrains where lines 2 and 4 in each quatrain are repeated as lines 1 and 3 in the subsequent quatrain.
@@ -230,6 +249,21 @@ matches:
       couplet -- end rhyme both lines with seond line of penultimate tercet (aba/bb)
       tercet -- reverse rhyme scheme of penultimate tercet (aba/bab)
     
+
+  - trigger: "pf:triolet"
+    replace: |
+      An eight-line form with significant rhymes and refrains.
+      The first line (capitalized) becomes the first refrain and is repeated on the fourth and seventh line.
+      The second line (capitalized) becomes the second refrain and is repeated on the last line.
+      
+      A
+      B
+      a
+      A
+      a
+      b
+      A
+      B
 
   - trigger: "pf:villanelle"
     replace: |
